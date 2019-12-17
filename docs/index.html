@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title></title>
+    <title>NOAA Fisheries Visual Report Designer</title>
    <link type="text/css" rel="stylesheet" href="./static/simple.css" />
 
-
-</style>
 </head>
 <body>
     <div class="container">
         <div class="mywrap">
-            <div class ="title">
+            <h1 class ="title">
               Visual Report Designer
-            </div>
+            </h1>
               
               <div class = "badge"  data-md-tooltip="Legacy Tool - Adopted"  id = badge_internal_inactive> </div>
               
@@ -25,29 +23,25 @@
         </div>
         <div class="mywrap">
               
-                <button class = "codelink" id = "nolink">
+                <button class = "codelink nolink" title="Online application unavailable">
                 Online Application
                 </button>
               
 
               
-              <a href= "https://github.com/nmfs-fish-tools/VRD/releases/download/1.6.1/VisualReportV161.zip" target="_blank" title="link to download application">
-                <button class = "codelink">
+              <button class = "codelink" title="link to download application" onclick=" window.open('https://github.com/nmfs-fish-tools/VRD/releases/download/1.6.1/VisualReportV161.zip', '_blank'); return false;">
                 Download Application
                 </button>
-              </a>
               
 
               
-              <a href= "https://www.nefsc.noaa.gov/nft/downloads/VRHelp_022608.zip" target="_blank" title="link to documentation">
-                <button class = "codelink">
-                Documentation
+               <button class = "codelink" title="link to documentation" onclick=" window.open('https://www.nefsc.noaa.gov/nft/downloads/VRHelp_022608.zip', '_blank'); return false;">
+                Documenation
                 </button>
-              </a>
               
 
               
-                <button class = "codelink" id = "nolink">
+                <button class = "codelink nolink" title="Code Repository unavailable">
                 Code Repository
                 </button>
               
@@ -116,10 +110,10 @@
       <div class = "divider"></div>
 
         <footer >
-             <img src="./static/noaa-fisheries-rgb-2line-horizontal-small.png" height="75px">
+             <img src="./static/noaa-fisheries-rgb-2line-horizontal-small.png" height="75" alt="NOAA Fisheries">
          <div class="mywrap_center">
-          <a class ="mylink" id = "line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
-         <a class ="mylink" id = "line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
+          <a class ="mylink line" href="https://www.commerce.gov/">U.S. Department of Commerce</a>
+         <a class ="mylink line" href="https://www.noaa.gov">National Oceanographic and Atmospheric Administration</a>
          <a class ="mylink" href="https://www.fisheries.noaa.gov/">NOAA Fisheries</a>
          </div>
 
