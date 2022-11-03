@@ -4,7 +4,7 @@
 
 **************
 
-https://nmfs-fish-tools.github.io/VRD/
+https://nmfs-fish-tools.github.io/VRD
 
 **************
 
